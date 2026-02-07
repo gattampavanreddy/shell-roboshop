@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SG_ID="sg-095a9a8243a52d49f" # replace with your ID
+SG_ID="sg-095a9a8243a52d49f" 
 AMI_ID="ami-0220d79f3f480ecf5"
 
 
@@ -31,6 +31,8 @@ do
         )
         
     fi
+
+    echo "IP Address of $instance is $IP"
 
     done
 
