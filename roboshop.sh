@@ -2,7 +2,7 @@
 
 SG_ID="sg-095a9a8243a52d49f" 
 AMI_ID="ami-0220d79f3f480ecf5"
-hosted_zone_id="ZZ01387941X390IQC8KQYJ"
+hosted_zone_id="Z01387941X390IQC8KQYJ"
 domain_name="pavanreddy.online"
 
 
@@ -61,7 +61,7 @@ do
     }'  
    
 
-echo "Record $record_name updated with IP $IP"
+echo "Record  updated for $instance"
 
 done
 
