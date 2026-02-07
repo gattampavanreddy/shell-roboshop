@@ -59,7 +59,7 @@ do
          }
         ] 
     }'  
-   fi
+   
 
 echo "Record $record_name updated with IP $IP"
 
