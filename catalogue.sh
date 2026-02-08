@@ -46,7 +46,7 @@ mkdir -p /app &>>$LOGS_FILE
 VALIDATE $? "creating application directory"
 
 curl -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue-v3.zip &>>$LOGS_FILE
-validate $? "downloading catalogue code"
+VALIDATE $? "downloading catalogue code"
 
 
 #cd /app 
